@@ -1103,7 +1103,7 @@ section > .container-fluid {
   }
 }
 .menuzord-brand img {
-  max-height: 50px;
+  max-height: 74px;
 }
 /* -------- Inner Header ---------- */
 .inner-header .title {
@@ -6478,3 +6478,19 @@ blockquote p {
 }
 
 /*# sourceMappingURL=style-main.css.map */
+
+/* Custom Styles */
+.navi-bar {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.menuzord-menu {
+  float: right !important;
+}
+
+@media (max-width: 900px) {
+  .navi-bar {
+    flex-direction: column !important;
+  }
+}
