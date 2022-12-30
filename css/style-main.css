@@ -6489,8 +6489,8 @@ blockquote p {
   float: right !important;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .navi-bar {
     flex-direction: column !important;
   }
-}
+} */

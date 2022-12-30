@@ -34,6 +34,20 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
+    .styl_nav{
+        position: relative;
+    }
+    .stly_ulnav{
+        max-height: 400px;
+            display: none;
+            position: absolute;
+            width: 100vw !important;
+            top: 130%;
+            left: -130%;
+    }
+        .menuzord-brand img {
+        width: 50%;
+        }
 }
 
 /* Small Devices, Tablets */
